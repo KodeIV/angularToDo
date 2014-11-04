@@ -17,6 +17,7 @@
     "hapi": "^7.2.0"
   },
   "devDependencies": {
+    "hapi-mongodb": "^2.2.0",
     "mongodb": "^1.4.19"
   }
 }
