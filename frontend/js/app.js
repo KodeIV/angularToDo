@@ -6,18 +6,6 @@
  * @type {angular.Module}
  */
 
-var Hapi = require('hapi');
-var server = Hapi.server(+process.env.PORT, '0.0.0.0', {
-
-        cors: true,
-        debug: {
-            request: ['error']
-        }
-    });
-
-server.start(function(){
-	console.log('Server running at:', server.info.uri);
-});
 
 angular.module('todomvc', ['ngRoute'])
 	.config(function ($routeProvider) {
