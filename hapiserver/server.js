@@ -1,6 +1,7 @@
 var Hapi = require('hapi');
 var routes = require("./routes/routes.js");
 
+
 var server = hapi.server(+process.env.PORT, '0.0.0.0', {
 
         cors: true,
@@ -10,7 +11,7 @@ var server = hapi.server(+process.env.PORT, '0.0.0.0', {
     });
 
 var dbOpts = {
-    "url": "<<mongo url here>>",
+    "url": "mongodb://kodeIV:koders4lyf@dogen.mongohq.com:10005/Todo",
     "settings": {
         "db": {
             "native_parser": false
