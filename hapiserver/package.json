@@ -1,0 +1,19 @@
+{
+  "name": "hapiserver",
+  "version": "1.0.0",
+  "description": "hapiserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "hapi",
+    "angular"
+  ],
+  "author": "Kode IV",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^7.2.0"
+  }
+}
